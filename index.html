@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helados Regia Anáhuac | Paletas, nieve y yogurt</title>
+  <meta name="description" content="Helados Regia Anáhuac: paletas, nieve, yogurt, troles, veladoras y más. Más de 17 años en San Nicolás de los Garza." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="#inicio" class="brand">
+      <img src="img/logo.jpg" alt="Logo Helados Regia" />
+      <span>Helados Regia <b>Anáhuac</b></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    <nav id="navMenu">
+      <a href="#productos">Productos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#historia">Historia</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a class="nav-cta" href="https://wa.me/528118402416" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Desde hace más de 17 años en Anáhuac</p>
+        <h1>Paletas, nieve y yogurt con sabor regio</h1>
+        <p class="hero-text">Disfruta productos Helados Regia: paletas de crema, agua, light, litros de nieve, yogen, troles, veladoras y más.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#productos">Ver productos</a>
+          <a class="btn ghost" href="https://www.google.com.mx/maps/place/HELADOS+REGIA+AN%C3%81HUAC/@25.7359417,-100.3046548,17z/data=!4m6!3m5!1s0x866294f7df07d95b:0xb302eb6731329caa!8m2!3d25.73588!4d-100.304757!16s%2Fg%2F11r8y_n62?entry=ttu" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <img src="img/paleta-fresa.jpg" alt="Paleta vainilla con fresa" />
+        <div>
+          <span class="badge">100% sabor</span>
+          <h2>Vainilla rellena con fresa</h2>
+          <p>Una de nuestras favoritas para refrescar tu día.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-strip">
+      <article><strong>Horario</strong><span>12:00 pm - 10:00 pm</span></article>
+      <article><strong>Teléfono</strong><span>+52 811 840 2416</span></article>
+      <article><strong>Dirección</strong><span>Av. Topo Chico 136, Anáhuac</span></article>
+    </section>
+
+    <section id="galeria" class="section gallery-section">
+      <div class="section-title reveal">
+        <p class="eyebrow">Galería destacada</p>
+        <h2>Un antojo perfecto</h2>
+      </div>
+      <div class="slider reveal">
+        <button class="slide-btn" id="prevBtn" aria-label="Imagen anterior">‹</button>
+        <div class="slide-stage">
+          <img id="slideImage" src="img/yogen.jpg" alt="Imagen destacada de Helados Regia" />
+          <div class="slide-caption">
+            <span id="slideTag">Yogen</span>
+            <h3 id="slideTitle">Yogen con más de 12 ingredientes</h3>
+            <p id="slideText">Un producto fresco, colorido y perfecto para compartir.</p>
+          </div>
+        </div>
+        <button class="slide-btn" id="nextBtn" aria-label="Siguiente imagen">›</button>
+      </div>
+      <div class="dots" id="dots"></div>
+    </section>
+
+    <section id="productos" class="section products-section">
+      <div class="section-title reveal">
+        <p class="eyebrow">Menú</p>
+        <h2>Productos y sabores</h2>
+      </div>
+
+      <div class="menu-grid">
+        <div class="menu-card reveal"><h3>Paleta de crema</h3><ul>
+          <li>Arroz con leche <span class="price">$48</span></li><li>Cajeta con nuez <span class="price">$48</span></li><li>Chocolate <span class="price">$48</span></li><li>Coco con nuez <span class="price">$48</span></li><li>Coco <span class="price">$48</span></li><li>Fresa <span class="price">$48</span></li><li>Galleta Oreo <span class="price">$48</span></li><li>Mango <span class="price">$48</span></li><li>Napolitano <span class="price">$48</span></li><li>Nuez <span class="price">$48</span></li><li>Queso <span class="price">$48</span></li><li>Queso con cajeta <span class="price">$48</span></li><li>Queso con ate de mango <span class="price">$48</span></li><li>Queso con ate de membrillo <span class="price">$48</span></li><li>Queso con zarzamora <span class="price">$48</span></li><li>Vainilla con cajeta <span class="price">$48</span></li><li>Vainilla con fresa natural <span class="price">$48</span></li><li>Vainilla<span class="price">$48</span></li>
+        </ul></div>
+
+        <div class="menu-card reveal"><h3>Paleta de agua</h3><ul>
+          <li>Chamoy <span class="price">$38</span></li><li>Chamoy con pepino y jícama <span class="price">$38</span></li><li>Coco <span class="price">$38</span></li><li>Fresa <span class="price">$38</span></li><li>Guayaba <span class="price">$38</span></li><li>Limón <span class="price">$38</span></li><li>Mango <span class="price">$38</span></li><li>Mango con chamoy <span class="price">$38</span></li><li>Melón <span class="price">$38</span></li><li>Piña <span class="price">$38</span></li><li>Sandía <span class="price">$38</span></li><li>Tamarindo <span class="price">$38</span></li><li>Uva <span class="price">$38</span></li>
+        </ul></div>
+
+        <div class="menu-card reveal"><h3>Opciones light</h3><ul>
+          <li>Paleta de leche Fresa light <span class="price">$55</span></li><li>Paleta de leche Mango light <span class="price">$55</span></li><li>Paleta de leche Nuez light <span class="price">$55</span></li><li>Paleta de leche Vainilla con cajeta light <span class="price">$55</span></li><li>Paleta de agua Limón light <span class="price">$45</span></li><li>Paleta de agua Chamoy light <span class="price">$45</span></li><li>Paleta de agua Tamarindo light <span class="price">$45</span></li><li>Paleta de Agua Melón light <span class="price">$45</span><li>Paleta de Agua Mango light <span class="price">$45</span></li><li>Copas de Yogurt Cajeta con nuez light <span class="price">$78</span></li><li>Copas de Yogurt Zarzamora light <span class="price">$78</span></li><li>Copas de Yogurt Mango light <span class="price">$78</span></li> <li>Copas de Yogurt Fresa light <span class="price">$78</span></li>
+        </ul></div>
+
+        <div class="menu-card reveal"><h3>Litros de nieve de leche</h3><ul>
+          <li>Vainilla con cajeta <span class="price">$135</span></li><li>Cajeta con nuez <span class="price">$135</span></li><li>Nuez <span class="price">$135</span></li><li>Oreo <span class="price">$135</span></li><li>Napolitano <span class="price">$135</span></li><li>Vainilla <span class="price">$135</span></li><li>Coco <span class="price">$135</span></li><li>Yogurt <span class="price">$135</span></li><li>Pistache <span class="price">$135</span></li><li>Fresa <span class="price">$135</span></li><li>Chocolate <span class="price">$135</span></li><li>Queso con zarzamora <span class="price">$135</span></li><li>Mango <span class="price">$135</span></li>
+        </ul></div>
+        
+
+
+            <div class="menu-card reveal">
+      <h3>Yogurt copa y vaso de nieve</h3>
+      <ul>
+        <li>Yogurt cajeta con nuez <span class="price">$68</span></li>
+        <li>Yogurt fresa <span class="price">$68</span></li>
+        <li>Yogurt frutas <span class="price">$68</span></li>
+        <li>Yogurt kiwi <span class="price">$68</span></li>
+        <li>Yogurt mango <span class="price">$68</span></li>
+        <li>Yogurt piña <span class="price">$68</span></li>
+        <li>Yogurt zarzamora <span class="price">$68</span></li>
+        <li>Yogurt pay de limón <span class="price">$68</span></li>
+        <li>Vaso de vainilla con cajeta <span class="price">$70</span></li>
+        <li>Vaso de vainilla con fresa <span class="price">$70</span></li>
+        <li>Vaso de vainilla con mango <span class="price">$70</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card reveal">
+      <h3>Yogen</h3>
+      <ul>
+        <li>Vaso chico <span class="price">$70</span></li>
+        <li>Vaso mediano <span class="price">$85</span></li>
+        <li>Vaso grande <span class="price">$105</span></li>
+        <li>Vaso de litro <span class="price">$190</span></li>
+        <li>Vaso chico light <span class="price">$80</span></li>
+        <li>Vaso mediano light <span class="price">$100</span></li>
+        <li>Vaso grande light <span class="price">$125</span></li>
+        <li>Vaso de litro light <span class="price">$240</span></li>
+      </ul>
+
+      <h4 class="ingredients-title">Ingredientes disponibles</h4>
+      <ul class="ingredients-list">
+        <li>Fresa</li>
+        <li>Mango</li>
+        <li>Durazno</li>
+        <li>Mora azul</li>
+        <li>Zarzamora</li>
+        <li>Piña</li>
+        <li>Plátano</li>
+        <li>Kiwi</li>
+        <li>Melón</li>
+        <li>Guayaba</li>
+        <li>Manzana</li>
+        <li>Papaya</li>
+        <li>Nuez</li>
+        <li>Oreo</li>
+        <li>Chips Ahoy</li>
+        <li>Coco rallado</li>
+        <li>Chispas de chocolate</li>
+        <li>Froot Loops</li>
+        <li>Choco Krispis</li>
+        <li>Cheerios</li>
+        <li>Granola</li>
+      </ul>
+    </div>
+
+    <div class="menu-card reveal">
+      <h3>Troles</h3>
+      <ul>
+        <li>Trol de chamoy <span class="price">$65</span></li>
+        <li>Trol de limón <span class="price">$65</span></li>
+        <li>Trol de limón con chamoy <span class="price">$65</span></li>
+        <li>Trol de mango <span class="price">$65</span></li>
+        <li>Trol de mango con chamoy <span class="price">$65</span></li>
+        <li>Trol de pepino <span class="price">$65</span></li>
+        <li>Trol de pepino con chamoy <span class="price">$65</span></li>
+        <li>Trol de melón <span class="price">$65</span></li>
+        <li>Trol de tamarindo <span class="price">$65</span></li>
+        <li>Trol de tamarindo con chamoy <span class="price">$65</span></li>
+      </ul>
+    </div>
+
+    <div class="menu-card reveal">
+      <h3>Veladoras y otros</h3>
+      <ul>
+        <li>Veladora de leche fresa <span class="price">$24</span></li>
+        <li>Veladora de leche mango <span class="price">$24</span></li>
+        <li>Veladora de leche nuez <span class="price">$24</span></li>
+        <li>Veladora de leche vainilla con cajeta <span class="price">$24</span></li>
+        <li>Bolis de leche fresa <span class="price">$22</span></li>
+        <li>Bolis de leche mango <span class="price">$22</span></li>
+        <li>Bolis de leche nuez <span class="price">$22</span></li>
+        <li>Bolis de leche vainilla <span class="price">$22</span></li>
+        <li>Trompito de chamoy <span class="price">$8</span></li>
+        <li>Trompito de limón <span class="price">$8</span></li>
+        <li>Trompito de mango <span class="price">$8</span></li>
+        <li>Esquimal especial <span class="price">$70</span></li>
+        <li>Esquimalito <span class="price">$16</span></li>
+      </ul>
+    </div>
+
+      </div>
+    </section>
+
+    <section id="historia" class="section story">
+      <div class="story-card reveal">
+        <img src="img/logo.jpg" alt="Logo Helados Regia Anáhuac">
+        <div>
+          <p class="eyebrow">Nuestra sucursal</p>
+          <h2>Más de 17 años refrescando Anáhuac</h2>
+          <p>Helados Regia Anáhuac es una sucursal con variedad y productos ideales para cualquier antojo: desde paletas clásicas hasta nieve, yogurt y sabores especiales.</p>
+          <a class="btn primary" href="https://www.facebook.com/helados.regia.anahuac/photos" target="_blank" rel="noopener">Ver Facebook</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="section location">
+      <div class="section-title reveal">
+        <p class="eyebrow">Visítanos</p>
+        <h2>Estamos en San Nicolás de los Garza</h2>
+      </div>
+      <div class="location-grid reveal">
+        <div class="contact-card">
+          <h3>Helados Regia Anáhuac</h3>
+          <p><b>Dirección:</b> Av. Topo Chico 136, Anáhuac, 66450 San Nicolás de los Garza, N.L.</p>
+          <p><b>Horario:</b> 12:00 pm a 10:00 pm</p>
+          <p><b>Teléfono:</b> +52 811 840 2416</p>
+          <div class="socials">
+            <a class="facebook" href="https://www.facebook.com/helados.regia.anahuac/photos" target="_blank" rel="noopener">Facebook: Helados Regia Anáhuac</a>
+            <!-- <a class="instagram" href="#">Instagram: @TU_CUENTA_AQUI</a>
+            <a class="tiktok" href="#">TikTok: @TU_CUENTA_AQUI</a> -->
+          </div>
+        </div>
+        <iframe title="Mapa Helados Regia Anáhuac" src="https://www.google.com/maps?q=HELADOS%20REGIA%20ANAHUAC%20Av.%20Topo%20Chico%20136%20An%C3%A1huac%20San%20Nicol%C3%A1s%20de%20los%20Garza&output=embed" loading="lazy"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/528118402416" target="_blank" rel="noopener">WhatsApp</a>
+
+  <footer>
+    <img src="img/logo.jpg" alt="Logo Helados Regia" />
+    <p>© <span id="year"></span> Helados Regia Anáhuac. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
